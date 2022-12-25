@@ -47,3 +47,36 @@ Maria.status_change()
 Rey.status_change()
 Lee.status_change()
 
+
+class Enemy(Person):
+    def __init__(self, weapon, firstname, lastname, health, status):
+        super().__init__(firstname, lastname, health, status)
+        self.weapon = weapon
+
+    def introduce(self):
+        print("You are my enemy!!")
+
+    def hurt(self, other):
+        if self.weapon == 'rock':
+            other.health -= 10
+        elif self.weapon == 'stick':
+            other.health -= 5
+        print(other.health)
+
+    def insult(self, other):
+        if other.health <= 80:
+            print(f'{other.firstname}, you are weak')
+
+    def steal(self, other):
+        print(f'{other.firstname}, I have your stuff!')
+        if other.status == True:
+            other.status= False
+
+
+Alex = Enemy('rock', 'Alex', 'Wayne', 75, status=False)
+Alex.hurt(Maria)
+Alex.hurt(Maria)
+Alex.insult(Maria)
+Alex.steal(Maria)
+print(Maria.status)
+Alex.introduce()

@@ -7,3 +7,6 @@
 - Lists (lists.py)
 - Dictionaries (dictionary.py)
 - Classes (person.py)
+- Inheritance (person.py)
+- Multiple inheritance (multiple.py)
+- Polymorphism (person.py)
