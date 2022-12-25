@@ -4,3 +4,4 @@
 - args , Kwargs (func_args.py)
 - Conditionals (comp_op.py, calc.py)
 - Loops (loops.py, while.py, calc.py)
+- Lists (lists.py)
