@@ -1,4 +1,4 @@
-def user_info(name , age=0, city="Dubai", *args,**kwargs):
+def user_info(name , age=0, city="Dubai", *args, **kwargs):
     '''This function prints name , age and city
     from an argument provided to the function '''
 
