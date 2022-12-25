@@ -6,3 +6,4 @@
 - Loops (loops.py, while.py, calc.py)
 - Lists (lists.py)
 - Dictionaries (dictionary.py)
+- Classes (person.py)
