@@ -2,4 +2,5 @@
 - Variables + Data (variables.py)
 - Functions (scratch_variables.py)
 - args , Kwargs (func_args.py)
-- Cinditionals (comp_op.py, calc.py)
+- Conditionals (comp_op.py, calc.py)
+- Loops (loops.py, while.py, calc.py)
